@@ -1,0 +1,9 @@
+package com.example.sort;
+/**
+ * 归并排序
+ * */
+public class Merge {
+	public static void merge(Comprable a[],int low,int mid,int high){
+		
+	}
+}

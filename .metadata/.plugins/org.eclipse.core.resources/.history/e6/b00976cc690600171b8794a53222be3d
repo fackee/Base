@@ -1,0 +1,12 @@
+package com.example.sort;
+
+public class SortTamplate {
+	public static void sort(Comparable a[]){
+		
+	}
+	
+	public static boolean less(Comparable v,Comparable w){
+		
+	}
+
+}

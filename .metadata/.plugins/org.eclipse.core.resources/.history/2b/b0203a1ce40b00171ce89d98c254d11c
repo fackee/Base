@@ -1,0 +1,14 @@
+package com.example.sort;
+
+public class QuickSort extends SortTamplate{
+
+	@Override
+	public void sort(Comparable[] a) {
+		// TODO Auto-generated method stub
+		
+	}
+	public static sort(Comparable[] a,int low.int high){
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.example.sort;
+
+import java.util.Random;
+
+public class SortTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SortTamplate selection = new Selection();
+		SortTamplate insertion = new Insertion();
+		SortTamplate ShellSort = new ShellSort();
+		Integer a[] = new Integer[];
+		Random r = new Random();
+		for(int i=0;i<10;i++){
+			a[i] = r.nextInt(10);
+		}
+		
+		//selection.sort(a);
+		//selection.show(a);
+		//insertion.sort(a);
+		//insertion.show(a);
+	}
+
+}

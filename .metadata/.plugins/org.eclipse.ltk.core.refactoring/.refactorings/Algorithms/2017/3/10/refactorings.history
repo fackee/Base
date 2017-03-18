@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.example.linkedlist.SingleLinkedList&apos; to &apos;Stack&apos;&#x0A;- Original project: &apos;Algorithms&apos;&#x0A;- Original element: &apos;com.example.linkedlist.SingleLinkedList&apos;&#x0A;- Renamed element: &apos;com.example.linkedlist.Stack&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SingleLinkedList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.example.linkedlist{SingleLinkedList.java[SingleLinkedList" matchStrategy="1" name="Stack" qualified="false" references="true" similarDeclarations="false" stamp="1488810089279" textual="false" version="1.0"/>
+</session>

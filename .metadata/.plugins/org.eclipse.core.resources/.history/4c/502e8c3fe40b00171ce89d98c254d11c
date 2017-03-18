@@ -1,0 +1,17 @@
+package com.example.sort;
+
+public class QuickSort extends SortTamplate{
+
+	@Override
+	public void sort(Comparable[] a) {
+		// TODO Auto-generated method stub
+		sort(a,0,a.length-1);
+	}
+	public static void sort(Comparable[] a,int low,int high){
+		if(low >= high){
+			return;
+		}
+		
+	}
+
+}
