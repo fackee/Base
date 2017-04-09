@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="714" maximized="true" width="1012" x="49" y="24">
 <fastViewData fastViewLocation="1024">
@@ -43,13 +43,13 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Merge.java" partName="Merge.java" path="/home/xiaozhu/workspace/Algorithms/src/com/example/sort/Merge.java" title="Merge.java" tooltip="Algorithms/src/com/example/sort/Merge.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/com/example/sort/Merge.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="810" selectionTopPixel="599"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayStack.java" partName="ArrayStack.java" path="/home/xiaozhu/workspace/Algorithms/src/com/example/linkedlist/ArrayStack.java" title="ArrayStack.java" tooltip="Algorithms/src/com/example/linkedlist/ArrayStack.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/com/example/linkedlist/ArrayStack.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="59" selectionTopPixel="145"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortTest.java" partName="SortTest.java" path="/home/xiaozhu/workspace/Algorithms/src/com/example/sort/SortTest.java" title="SortTest.java" tooltip="Algorithms/src/com/example/sort/SortTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/com/example/sort/SortTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedStack.java" partName="LinkedStack.java" path="/home/xiaozhu/workspace/Algorithms/src/com/example/linkedlist/LinkedStack.java" title="LinkedStack.java" tooltip="Algorithms/src/com/example/linkedlist/LinkedStack.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Algorithms/src/com/example/linkedlist/LinkedStack.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -85,23 +85,23 @@
 </customFilters>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (36 items)"/>
+<category IMemento.internal.id="Warnings (65 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="207" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="367"/>
+<columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="207" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="120" org.eclipse.ui.ide.severityAndDescriptionField="504"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.ProjectsView" partName="Projects">
 <viewState org.eclipse.jdt.ui.browsing.projectstoeditor="1" workingSetName="">
@@ -188,7 +188,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -303,16 +303,21 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViews>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.29960784"/>
 <view id="org.eclipse.ui.views.ResourceNavigator" ratio="0.29960784"/>
 </fastViews>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@3b14d63b" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29924813"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -336,20 +341,11 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.212098" ratioLeft="277" ratioRight="1029" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74949086" ratioLeft="736" ratioRight="246" relationship="2" relative="org.eclipse.ui.editorss">
@@ -357,6 +353,15 @@
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3b14d63b" ratio="0.5255255" ratioLeft="350" ratioRight="316" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
@@ -428,7 +433,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49961802" ratioLeft="654" ratioRight="655" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49961802" ratioLeft="654" ratioRight="655" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
@@ -551,114 +556,158 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/com/example/sort/Merge.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/com/example/sort/SortTest.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/com/example/sort/SortTamplate.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/com/example/linkedlist/ArrayStack.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Algorithms/src/com/example/linkedlist/LinkedStack.java"/>
 </editors>
-<item historyLabel="Merge.java" index="0">
+<item historyLabel="ArrayStack.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="825" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="89" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="824" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="131" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="906" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="944" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="995" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="994" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="981" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="971" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="959" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
+<item historyLabel="ArrayStack.java" index="0">
 <position/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="959" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
+<item historyLabel="ArrayStack.java" index="0">
 <position/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="959" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="403" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="959" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="959" y="0"/>
-</item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="808" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
-</item>
-<item historyLabel="SortTest.java" index="1">
+<item historyLabel="ArrayStack.java" index="0">
 <position/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="LinkedStack.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="1009" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="1067" y="0"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
+<item historyLabel="LinkedStack.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="1067" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position/>
+</item>
+<item historyLabel="LinkedStack.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="58" y="0"/>
+</item>
+<item historyLabel="LinkedStack.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="86" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="148" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="210" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="294" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="309" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="296" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="382" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="435" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="460" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
 <position info="not_deleted" x="487" y="0"/>
 </item>
-<item historyLabel="SortTamplate.java" index="2">
-<position info="not_deleted" x="361" y="4"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="535" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="57" y="5"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="561" y="0"/>
 </item>
-<item historyLabel="SortTamplate.java" index="2">
-<position info="not_deleted" x="361" y="4"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="573" y="0"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="623" y="0"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="804" y="6"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="650" y="0"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="115" y="0"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="142" y="22"/>
 </item>
-<item historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="810" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="110" y="0"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="74" y="10"/>
 </item>
-<item historyLabel="SortTest.java" index="1">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="818" y="0"/>
 </item>
-<item active="true" historyLabel="Merge.java" index="0">
-<position info="not_deleted" x="810" y="0"/>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="1064" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="775" y="18"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="813" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="775" y="18"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="971" y="0"/>
+</item>
+<item historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="LinkedStack.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="ArrayStack.java" index="0">
+<position info="not_deleted" x="59" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -666,9 +715,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -676,55 +722,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@3b14d63b"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortTamplate.java" tooltip="Algorithms/src/com/example/sort/SortTamplate.java">
-<persistable path="/Algorithms/src/com/example/sort/SortTamplate.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedStack.java" tooltip="Algorithms/src/com/example/linkedlist/LinkedStack.java">
+<persistable path="/Algorithms/src/com/example/linkedlist/LinkedStack.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortTest.java" tooltip="Algorithms/src/com/example/sort/SortTest.java">
-<persistable path="/Algorithms/src/com/example/sort/SortTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Merge.java" tooltip="Algorithms/src/com/example/sort/Merge.java">
-<persistable path="/Algorithms/src/com/example/sort/Merge.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShellSort.java" tooltip="Algorithms/src/com/example/sort/ShellSort.java">
-<persistable path="/Algorithms/src/com/example/sort/ShellSort.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Selection.java" tooltip="Algorithms/src/com/example/sort/Selection.java">
-<persistable path="/Algorithms/src/com/example/sort/Selection.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Insertion.java" tooltip="Algorithms/src/com/example/sort/Insertion.java">
-<persistable path="/Algorithms/src/com/example/sort/Insertion.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Comparable.class" tooltip="java.lang.Comparable">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Algorithms/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Iterator.class" tooltip="java.util.Iterator">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Algorithms/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(Iterator.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayStack.java" tooltip="Algorithms/src/com/example/linkedlist/ArrayStack.java">
+<persistable path="/Algorithms/src/com/example/linkedlist/ArrayStack.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DoublyLinked.java" tooltip="Algorithms/src/com/example/linkedlist/DoublyLinked.java">
 <persistable path="/Algorithms/src/com/example/linkedlist/DoublyLinked.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedList.java" tooltip="Algorithms/src/com/example/linkedlist/LinkedList.java">
-<persistable path="/Algorithms/src/com/example/linkedlist/LinkedList.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stack.java" tooltip="Algorithms/src/com/example/linkedlist/Stack.java">
+<persistable path="/Algorithms/src/com/example/linkedlist/Stack.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedListTest.java" tooltip="Algorithms/src/com/example/linkedlist/LinkedListTest.java">
-<persistable path="/Algorithms/src/com/example/linkedlist/LinkedListTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RedBlackBST.java" tooltip="Algorithms/src/com/example/search/RedBlackBST.java">
+<persistable path="/Algorithms/src/com/example/search/RedBlackBST.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SingleLinkedList.java" tooltip="Algorithms/src/com/example/linkedlist/SingleLinkedList.java">
-<persistable path="/Algorithms/src/com/example/linkedlist/SingleLinkedList.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BalanceST.java" tooltip="Algorithms/src/com/example/search/BalanceST.java">
+<persistable path="/Algorithms/src/com/example/search/BalanceST.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LinkedStack.java" tooltip="generic/src/com/example/tuple/LinkedStack.java">
-<persistable path="/generic/src/com/example/tuple/LinkedStack.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Merge.java" tooltip="Algorithms/src/com/example/sort/Merge.java">
+<persistable path="/Algorithms/src/com/example/sort/Merge.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TwoTuple.java" tooltip="generic/src/com/example/tuple/TwoTuple.java">
-<persistable path="/generic/src/com/example/tuple/TwoTuple.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuickSort.java" tooltip="Algorithms/src/com/example/sort/QuickSort.java">
+<persistable path="/Algorithms/src/com/example/sort/QuickSort.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Callbacks.java" tooltip="ClosureAndCallback/src/Callbacks.java">
-<persistable path="/ClosureAndCallback/src/Callbacks.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortTamplate.java" tooltip="Algorithms/src/com/example/sort/SortTamplate.java">
+<persistable path="/Algorithms/src/com/example/sort/SortTamplate.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Insertion.java" tooltip="Algorithms/src/com/example/sort/Insertion.java">
+<persistable path="/Algorithms/src/com/example/sort/Insertion.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Selection.java" tooltip="Algorithms/src/com/example/sort/Selection.java">
+<persistable path="/Algorithms/src/com/example/sort/Selection.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Integer.class" tooltip="java.lang.Integer">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Algorithms/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Integer.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShellSort.java" tooltip="Algorithms/src/com/example/sort/ShellSort.java">
+<persistable path="/Algorithms/src/com/example/sort/ShellSort.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SortTest.java" tooltip="Algorithms/src/com/example/sort/SortTest.java">
+<persistable path="/Algorithms/src/com/example/sort/SortTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="searchTest.java" tooltip="Algorithms/src/com/example/search/searchTest.java">
+<persistable path="/Algorithms/src/com/example/search/searchTest.java"/>
 </file>
 </mruList>
 </workbench>

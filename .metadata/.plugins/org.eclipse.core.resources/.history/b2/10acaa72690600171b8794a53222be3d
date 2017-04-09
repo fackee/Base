@@ -1,8 +1,0 @@
-package com.example.sort;
-
-public class SortTamplate {
-	public static void sort(Compa a[]){
-		
-	}
-
-}

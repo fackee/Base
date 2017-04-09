@@ -1,8 +1,0 @@
-package com.example.sort;
-
-public class ShellSort extends SortTamplate{
-	public void sort(Comparable a[]){
-		
-	}
-
-}

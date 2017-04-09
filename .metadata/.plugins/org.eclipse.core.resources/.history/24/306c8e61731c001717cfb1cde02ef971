@@ -1,0 +1,10 @@
+package com.example.linkedlist;
+
+public class ArrayStack<T> {
+	private T[] stack;
+	private int N = 0;
+	public ArrayStack(){
+		stack = new T[20];
+		int a[] = new int[20];
+	}
+}
